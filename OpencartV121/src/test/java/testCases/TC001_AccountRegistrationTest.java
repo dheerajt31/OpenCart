@@ -12,7 +12,7 @@ public class TC001_AccountRegistrationTest extends Base_Class {
 
 	@Test(groups={"Regression","Master"})
 	public void verify_account_registration() {
-		logger.info("****Starting TC001_AccountRegistrationTest ****");
+		logger.info("****Starting TC001_AccountRegistrationTest update*****");
 		try {
 			HomePage hp = new HomePage(driver);
 			hp.clickMyAccount();
